@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/quartz_block_bottom",
-		"1": "block/quartz_block_side",
-		"2": "block/quartz_block_top",
-		"particle": "block/quartz_block_bottom"
+		"0": "blocks/quartz_block_bottom",
+		"1": "blocks/quartz_block_side",
+		"2": "blocks/quartz_block_top",
+		"particle": "blocks/quartz_block_bottom"
 	},
 	"elements": [
 		{
