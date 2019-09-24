@@ -2,16 +2,16 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/stone_slab_top",
-		"4_0": "block/quartz_block_bottom",
-		"4_1": "block/quartz_block_side",
-		"4_2": "block/quartz_block_top",
-		"5_0": "block/quartz_block_bottom",
-		"5_1": "block/quartz_block_side",
-		"5_2": "block/quartz_block_top",
-		"6_0": "block/quartz_block_bottom",
-		"particle": "block/quartz_block_bottom",
-		"6_1": "block/quartz_block_side",
-		"6_2": "block/quartz_block_top"
+		"4_0": "blocks/quartz_block_bottom",
+		"4_1": "blocks/quartz_block_side",
+		"4_2": "blocks/quartz_block_top",
+		"5_0": "blocks/quartz_block_bottom",
+		"5_1": "blocks/quartz_block_side",
+		"5_2": "blocks/quartz_block_top",
+		"6_0": "blocks/quartz_block_bottom",
+		"particle": "blocks/quartz_block_bottom",
+		"6_1": "blocks/quartz_block_side",
+		"6_2": "blocks/quartz_block_top"
 	},
 	"elements": [
 		{
