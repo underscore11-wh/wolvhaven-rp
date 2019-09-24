@@ -1,0 +1,202 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/stone_slab_top",
+		"4_0": "block/quartz_block_bottom",
+		"4_1": "block/quartz_block_side",
+		"4_2": "block/quartz_block_top",
+		"5_0": "block/quartz_block_bottom",
+		"5_1": "block/quartz_block_side",
+		"5_2": "block/quartz_block_top",
+		"6_0": "block/quartz_block_bottom",
+		"particle": "block/quartz_block_bottom",
+		"6_1": "block/quartz_block_side",
+		"6_2": "block/quartz_block_top"
+	},
+	"elements": [
+		{
+			"from": [0, -16, 0],
+			"to": [16, 0, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [16, -16, 0],
+			"to": [24, 0, 16],
+			"rotation": {"angle": 0, "axis": "z", "origin": [24, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "rotation": 270, "texture": "#4_1"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#4_2"},
+				"south": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#4_1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4_0"},
+				"up": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#4_1"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#4_1"}
+			}
+		},
+		{
+			"from": [24, -8, 0],
+			"to": [32, 0, 16],
+			"rotation": {"angle": 0, "axis": "z", "origin": [24, -8, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "rotation": 270, "texture": "#4_1"},
+				"east": {"uv": [0, 0, 16, 8], "rotation": 180, "texture": "#4_2"},
+				"south": {"uv": [0, 0, 8, 8], "rotation": 90, "texture": "#4_1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#4_0"},
+				"up": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#4_1"},
+				"down": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#4_1"}
+			}
+		},
+		{
+			"from": [-8, -16, 0],
+			"to": [0, 0, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#4_1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4_0"},
+				"south": {"uv": [0, 8, 16, 16], "rotation": 270, "texture": "#4_1"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#4_2"},
+				"up": {"uv": [0, 8, 16, 16], "rotation": 270, "texture": "#4_1"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 270, "texture": "#4_1"}
+			}
+		},
+		{
+			"from": [-16, -8, 0],
+			"to": [-8, 0, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "rotation": 90, "texture": "#4_1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#4_0"},
+				"south": {"uv": [8, 0, 16, 8], "rotation": 270, "texture": "#4_1"},
+				"west": {"uv": [0, 0, 16, 8], "rotation": 180, "texture": "#4_2"},
+				"up": {"uv": [0, 0, 16, 8], "rotation": 270, "texture": "#4_1"},
+				"down": {"uv": [0, 0, 16, 8], "rotation": 270, "texture": "#4_1"}
+			}
+		},
+		{
+			"from": [-16, 0, 0],
+			"to": [0, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5_2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#5_0"}
+			}
+		},
+		{
+			"from": [16, 0, 0],
+			"to": [32, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [24, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5_2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#5_0"}
+			}
+		},
+		{
+			"from": [16, 16, 0],
+			"to": [32, 32, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [24, 24, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5_1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5_2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#5_0"}
+			}
+		},
+		{
+			"from": [-16, 16, 0],
+			"to": [0, 32, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 24, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#6_1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#6_1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6_1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#6_1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#6_2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#6_0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, -28, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "stoneslab",
+			"origin": [8, 8, 8],
+			"children": [0]
+		},
+		{
+			"name": "quartzstair",
+			"origin": [8, 8, 8],
+			"children": [1, 2]
+		},
+		{
+			"name": "quartzstair",
+			"origin": [8, 8, 8],
+			"children": [3, 4]
+		},
+		{
+			"name": "quartzblock",
+			"origin": [8, 8, 8],
+			"children": [5]
+		},
+		{
+			"name": "quartzblock",
+			"origin": [8, 8, 8],
+			"children": [6]
+		},
+		{
+			"name": "quartzblock",
+			"origin": [8, 8, 8],
+			"children": [7]
+		},
+		{
+			"name": "quartzblock",
+			"origin": [8, 8, 8],
+			"children": [8]
+		}
+	]
+}
